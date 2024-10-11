@@ -1,7 +1,8 @@
 /**
+  GIT : https://github.com/colystutorial/clybgrmvr
   DISCORD SERVER : https://discord.gg/d9ZpAh3UwN
  * **********************************************
- *   Code by yzichi
+ *   Code by YZICHI
  * **********************************************
  */
 
@@ -23,12 +24,12 @@ app.get('/', (req, res) => {
   res.send('YaY Your Bot Status Changed✨');
 });
 app.listen(port, () => {
-  console.log(`🔗 Listening to ceia: http://localhost:${port}`);
-  console.log(`🔗 Powered By ceia`);
+  console.log(`🔗 Listening to YZICHI: http://localhost:${port}`);
+  console.log(`🔗 Powered By YZICHI`);
 });
 
 
-const statusMessages = ["status 1" "status 2"];
+const statusMessages = ["PUT STATUS 1","PUT STATUS 2","PUT STATUS 3"];
 
 
 let currentIndex = 0;
@@ -45,9 +46,10 @@ async function login() {
 }
 
 /**
+  GIT : https://github.com/colystutorial/YZICHI
   DISCORD SERVER : https://discord.gg/d9ZpAh3UwN
  * **********************************************
- *   Code by yzichi
+ *   Code by YZICHI
  * **********************************************
  */
 
@@ -57,7 +59,7 @@ function updateStatusAndSendMessages() {
 
   client.user.setPresence({
     activities: [{ name: currentStatus, type: ActivityType.Custom}],
-    status: 'twitch stream',
+    status: 'dnd',
   });
 
   
@@ -87,8 +89,9 @@ client.once('ready', () => {
 login();
 
 /**
+  GIT : https://github.com/colystutorial/clybgrmvr
   DISCORD SERVER : https://discord.gg/d9ZpAh3UwN
  * **********************************************
- *   Code by yzichi
+ *   Code by YZICHI
  * **********************************************
  */
