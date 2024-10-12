@@ -29,7 +29,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["PUT STATUS 1","PUT STATUS 2","PUT STATUS 3"];
+const statusMessages = ["personal assistant .gg/cizuri","create tickets for orders"];
 
 
 let currentIndex = 0;
